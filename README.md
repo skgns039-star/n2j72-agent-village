@@ -1,7 +1,7 @@
 # N2J72 Agent Village
 
-Animated isometric village for nine N2J72 project folders and twenty registered agents. Folder and agent names are public; Mac filesystem paths and credentials are omitted.
+A self-contained 3D voxel village for nine N2J72 project folders. Each workshop has a distinct building and animated worker. The connected agent roster is in the Options drawer.
 
-The characters move continuously. On the Mac mini, the page connects to a loopback command bridge and shows actual read-only folder inspections and filename searches. Open the local address `http://127.0.0.1:17172/` for the complete experience. On another computer, the village animation remains visible, while Mac mini commands are unavailable.
+On the Mac mini, open **http://127.0.0.1:17172/**. Select a building and give a read-only Codex analysis or drafting task; a fresh Codex session works in that folder and the worker animation follows the persisted job state. Folder inspections and filename searches run locally without a model. Existing Orca conversations are not touched. File edits, customer messages, publishing, deployment, payment, and deletion are not available through this page.
 
-The agent roster is under **옵션 · 연결 에이전트**. This page does not control existing Orca conversations, send messages, publish, charge, delete, or change other agent projects.
+GitHub Pages displays the animated world. Browser local-network policy can block its connection to the Mac mini service; the page includes a link to the functional local address. Public HTML contains folder and agent names but no Mac filesystem paths or credentials.
